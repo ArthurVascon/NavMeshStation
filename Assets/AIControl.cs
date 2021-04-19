@@ -7,6 +7,7 @@ public class AIControl : MonoBehaviour
     public NavMeshAgent agent;
         // Use this for initialization
         void Start () {
+	//Indica o NavMesh do Personagem
         agent= this.GetComponent<NavMeshAgent>();
     }
 }
